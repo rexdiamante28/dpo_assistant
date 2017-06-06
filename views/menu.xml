@@ -1,0 +1,29 @@
+<odoo>
+  <data>
+
+      <menuitem id="dpo_assistant" name="DPO" sequence="10" />
+
+
+
+
+        <!--General-->
+        <menuitem id="general"
+                  name="General"
+                  parent="dpo_assistant"
+                  sequence="1" />
+
+
+                  <!--Measurement Requests-->
+                        <menuitem id="subscribers"
+                                  name="Subscribers"
+                                  parent="general"
+                                  sequence="2"
+                                  action="subscribers_action" />
+
+                        
+
+
+                        
+                            
+  </data>
+</odoo>
