@@ -8,20 +8,30 @@
         <t t-call="website.layout">
             <span class="hidden" id="active_link">0,1</span>
           
-            <div class="row">
               <div  id='dpo_main_content' class="col-xs-12">
                   <div class="col-sm-6" id='sssss'>
-                      <h1 class="lightbluetext bannertext">PROTECT.</h1>
-                      <h1 class="bluetext bannertext">PREVENT.</h1>
-                      <h1 class="lightbluetext bannertext">COMPLY.</h1>
 
-                      <h3 id="tagline">
-                        YOUR SECURITY AND DATA <BR/> 
-                        PRIVACY SERVICE PROVIDER
-                      </h3>
+                      <h1 class="lightbluetext bannertext text-center">WE ARE</h1>
+                      <h1 class="bluetext bannertext2 text-center">DATA PROTECTORS</h1>
+                      
+                      <div class='transparent_panel_blue'>
+
+                          <p class="subtitle">
+                              We are the virtual assitants to DPA. We are a leading privacy and data security specialists.
+                          </p>
+
+                          <p class="subtitle">
+                              We have global experience at running privacy at some of the world's largest companies. We perform all the DPO tasks that is expected other than being the organic member of the organizations
+                          </p>
+
+                          <p class="subtitle">
+                              We are global and just an email away.
+                          </p>
+                      </div>
+
                   </div>
                   <div class="col-sm-6">
-                      <div id='transparent_panel'>
+                      <div class='transparent_panel'>
                           <h3 class="bluetext text-center">SUBSCRIBE NOW!</h3>
                           <form method="post" action="/page/subscribe">
                               <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
@@ -46,8 +56,500 @@
                           </form>
                       </div>
                   </div>
-              </div>                                    
-            </div>
+              </div>
+
+
+              <div id="aboutus" class="section">
+
+                  <div id="filler" class="col-xs-12">
+                  </div>
+
+                  <h1>About Us</h1>
+
+                  <div class="row">
+                      <div class="col-xs-12 col-sm-6">
+                          <p class="justify">
+                              Easy as it looks, protecting sensitive data is one of the hardest job in any industry. It takes experts, working closely together to avoid failure.
+                              Effective data protection requires specific sets of skills. Deep information security experience, combined with privacy knowledge and data expertise must align. Data regulations must be known and complied with.
+                              Data protection isn't every company's specialty. Handling sensitive information without proper knowledge and experience can be really hard. Good thing, there's always an easier option. By outsourcing this workload to Data Protectors, you can focus on building your business while we:
+                          </p>
+                      </div>
+
+                      <div class="col-xs-12 col-sm-6">
+                            <ul>
+                                <li>Optimize your Information Security Program</li>
+                                <li>Build a world class data protection and governance system</li>
+                                <li>Protect you from breaches</li>
+                                <li>Ensure you are compliant with laws and regulations</li>
+                                <li>Act as an intermediary between you and regulators</li>
+                            </ul>
+                      </div>
+                  </div>
+                  
+                  
+
+                  <div class="row">
+
+                      <div class="col-xs-12 col-sm-7">
+                          <h2>
+                              <br/>In-depth Privacy expertise is a requirement
+                          </h2>
+
+                          <p class="justify">
+                              Privacy regulations are being created and enforced globally. Safe Harbor, relied on by US companies to protect Europe-derived personal data, has been replaced by Privacy Shield, which in turn will be replaced by EU GDPR in May 2018.
+                          </p>
+
+                          <p class="justify">
+                              In depth knowledge of myriad privacy regulations is useless unless closely coupled with strong data security knowledge and best practices: Our key strength.
+                          </p>
+
+                          <p class="justify">
+                              Singapore enacted the Personal Data Protection Act in 2012 (PDPA). The PDPA is designed to govern the collection, use and disclosure of personal data in Singapore by any private organization, including those that are not physically located in Singapore. All organizations that collect, use or disclose personal data in Singapore must comply with the PDPA, regardless of their place of incorporation.
+                          </p>
+
+                          <p class="justify">
+                              The US Federal Trade Commission (FTC) has been aggressively pursuing US companies that are anticompetitive, unfair or deceptive to consumers. FTC enforcements result in major monetary penalties, brand damage and senior management distractions. 
+                          </p>
+
+                          <h4>
+                                  The FTC's recommended approach involves:
+                              </h4>
+
+                              <p class="justify">
+                                  1. Starting with security first (compliance later)<br/><br/>
+
+                                  2. Control access to data sensibly<br/><br/>
+
+                                  3. Require secure authentication<br/><br/>
+
+                                  4. Segment your network appropriately<br/>
+
+                              </p>
+
+                          
+                      </div>
+
+                      <div class="col-xs-12 col-sm-5">
+                          
+                          <h2>
+                            <br/>US Federal Trade Commission
+                          </h2>
+
+                          <p class="justify">
+                              The FTC has successfully sued over 50 companies (including Google, Anthem, Microsoft and Facebook) for unfair and deceptive practices under Section 5 of the FTC Act. 
+                          </p>
+
+                          <p class="justify">
+                              Since the Third Circuit decision of 2015, in the case of FTC v Wyndham, the FTC is much more likely to bring an enforcement action against a company that suffers a data breach. 
+                          </p>
+
+                          <p class="justify">
+                              Enforcement actions frequently end in a 'Consent Decree or Settlement', (essentially a 20 year agreement by the company to enforce appropriate privacy policies, approximating a $100m USD fine).
+                          </p>
+
+                          <p class="justify">
+                              The FTC will focus on “prevent(ing) business practices that are anticompetitive, deceptive or unfair to consumers; enhance informed consumer choice and public understanding of the competitive process; and accomplish this without unduly burdening legitimate business activity.” But, Since Wyndham the FTC has been given the mantle to protect online security. The FTC is likely to interpret this widely and step up enforcement in the future.
+                          </p>
+                              
+
+                      </div>
+
+                  </div>
+
+
+                  <div class="row">
+                      <div class="col-xs-12 col-md-4">
+                          <h2>
+                              <br/>EU GDPR
+                          </h2>
+
+                          <p class="justify">
+                              The new General Data Protection Regulation (GDPR) is set to replace the Data Protection Directive 95/46/ec effective May 25, 2018. The GDPR contains new protections for EU data subjects and threatens significant fines and penalties (up to 2% of the total worldwide annual turnover) for non-compliant data controllers and processors once it comes into force. 
+                          </p>
+
+                          <p class="justify">
+                              The appointment of a DPO is required for US companies having activities in Europe and processing European’s data on a “large scale”, which includes most SaaS and cloud companies.
+                          </p>
+
+                      </div>
+
+                      <div class="col-xs-12 col-md-4">
+
+                            <h2>
+                                <br/>Privacy Shield
+                            </h2>
+
+                            <p class="justify">
+                                The Privacy Shield framework makes it easier for businesses moving personal data across the Atlantic to do so without falling foul of tough EU data transferal rules. Privacy Shield requirements govern participating organizations’ use and treatment of personal data received from the EU. By joining the Privacy Shield, participants make a commitment to comply with these Principles that is enforceable under U.S. law. 
+                            </p>
+
+                            <p class="justify">
+                                Privacy Shield regularly faces legal challenges to its validity, whit the common thread of complaints being that it does not adequately protect data. It should be considered an intermediary step to EU GDPR compliance.
+                            </p>
+
+                      </div>
+
+                      <div class="col-xs-12 col-md-4">
+                            <h2>
+                                <br/>Singapore Data Protection Requirements
+                            </h2>
+
+                            <p class="justify">
+                                The Singapore PDPA aims to regulate the flow of personal data, whereby consent of the individual is required before data relating to such individual may be collected, used or disclosed. The PDPA revolves around certain key obligations: Consent, Purpose Limitation, Notification, Access and Correction, Openness, Retention Limitation, Transfer Limitation, and Protection. 
+                            </p>
+
+                            <p class="justify">
+                                Companies operating or collecting personal data in Singapore need to review their information handling practices to ensure that they comply with their obligations under the PDPA, even if the data is transmitted to another country and stored in the cloud.
+                            </p>
+                      </div>
+                  </div>
+                  
+
+                  
+
+              </div>
+
+              <div id="services" class="section">
+
+                  <div class='transparent_panel'>
+
+                        <h1>Services</h1>
+
+                       <h2 class="text-center lightbluetext"> <a target="_blank" href="https://www.linkedin.com/pulse/gdpr-should-chief-information-security-officer-dpo-baylor-ph-d-mba">
+                          Who should not be a DPO?
+                        </a></h2>
+                        
+
+                        <div class="row">
+                            <div class="col-xs-12 col-md-3">
+                                <h3>Privacy Regulation Expertise</h3>
+                                <p class="justify">
+                                    The DPO must advise on the implications of data protection laws. The DPO must know the customers data collection and protection practices and business requirements to advise on the best course of action.
+                                </p>
+                            </div>
+
+                            <div class="col-xs-12 col-md-3">
+                                <h3>Developing Privacy Policies and Practices</h3>
+                                <p class="justify">
+                                    Policies formally guide sensitive data usage by the company and its agents. Practices reflect actual data usage and access. Controls must be developed and implemented to ensure alignment between policies and practices.
+                                </p>
+                            </div>
+
+                            <div class="col-xs-12 col-md-3">
+                                <h3>Interface to Regulators</h3>
+                                <p class="justify">
+                                    The DPO is an intermediary between the company and supervisory authorities. According to the GDPR, the DPO has to report directly “to the highest management level” of the company and his contact details have to be communicated to the supervisory authority.
+                                </p>
+                            </div>
+
+                            <div class="col-xs-12 col-md-3">
+                                <h3>Handling Data Subject Inquiries</h3>
+                                <p class="justify">
+                                    The DPO must be available for inquiries from data subjects on issues relating to data protection practices, access to records, withdrawal of consent, the right to be forgotten, and related rights.
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="row">
+                            <div class="col-xs-12 col-md-3">
+                                <h3>Monitoring and Reporting on Compliance</h3>
+                                <p class="justify">
+                                    The DPO must serve as a mini-regulator ensuring the practices of the enterprise comply with regulations and taking corrective actions when an issue is found.
+                                </p>
+                            </div>
+
+                            <div class="col-xs-12 col-md-3">
+                                <h3>Training Employees on Requirements</h3>
+                                <p class="justify">
+                                    The DPO must train staff on privacy requirements. Competent DPOs negotiate workable practices and procedures with operations staff.
+                                </p>
+                            </div>
+
+                            <div class="col-xs-12 col-md-3">
+                                <h3>Lead Data Processing Audits</h3>
+                                <p class="justify">
+                                    The DPO must conduct an audit of the data processing carried out by the company. For each processing, the DPO has to identify scope and purpose, the origin and sensitivity of data, estimate the number of persons concerned, and whether data is transferred outside the EU.
+                                </p>
+                            </div>
+
+                            <div class="col-xs-12 col-md-3">
+                                <h3>Independence</h3>
+                                <p class="justify">
+                                    The EU GDPR requires the DPO be independent of the hiring company, to be resourced appropriately and act ethically. As a result the DPO commonly reports to the CEO and/or board.
+                                </p>
+                                <b>Tasks of a DPO:</b>
+                                <ul>
+                                  <li>Breakdown of developing the plan</li>
+                                  <li>Breakdown of maintaining the plan</li>
+                                </ul>
+
+                            </div>
+                        </div>
+
+                        <h3 class="text-center">Let's Work Together!</h3>
+
+                  </div>
+                  
+
+              </div>
+
+              <div id="Portfolio" class="section">
+                  <h1>Portfolio</h1>
+                  <h4 class="text-center">
+                      Data Protectors offers a number of services to solve your privacy and regulatory needs. We are globally distributed and technically competent.
+                  </h4>
+
+                  <h2>
+                      <br/>
+                      <br/>
+                      Consulting
+                  </h2>
+
+                  <div class="row">
+                      <div class="col-xs-12 col-md-4">
+                          <h3>
+                              Data Protection Strategy
+                          </h3>
+                          <p class="justify">
+                              Data Protectors will work with your team to analyze data flows and evaluate risk within your organization. We will work with you to build a scalable and workable data classification matrix and build requires policies and procedures.
+                          </p>
+                          <p class="justify">
+                              These policies and procedures will ensure staff are clear on data sensitivity and apply the appropriate controls when interacting with data.
+                          </p>
+                      </div>
+                      <div class="col-xs-12 col-md-4">
+                          <h3>
+                              Data Protection Consulting
+                          </h3>
+
+                          <p class="justify">
+                              Data Protection requires and in-depth knowledge of current business practices. Our technical staff will work with your team to map current processes, highlight and mitigate risks, and work collaboratively together to improve both productivity and security.
+                          </p>
+                          <p class="justify">
+                              Our staff has decades of experience leading data protection at global companies. We combine pragmatic practices with a deep knowledge of regulatory requirements and security control effectiveness.
+                          </p>
+                      </div>
+                      <div class="col-xs-12 col-md-4">
+                          <h3>
+                              Data Breach handling
+                          </h3>
+                          <p class="justify">
+                              In the unlikely event of a breach, Data Protectors can assist with overall incident management. We can assist with finding the cause of the breach, assessing what data was taken, and advising on both technical and procedural steps to mitigate damage.
+                          </p>
+                          <p class="justify">
+                              Data Breaches is handle incorrectly can lead to severe brand damage, consumer mistrust, class action lawsuits and regulatory enforcement. Outside counsel should be contacted immediately in the even of a suspected breach.
+                          </p>
+                      </div>
+                  </div>
+
+
+                  <h2>
+                      Privacy
+                  </h2>
+
+
+                  <div class="row">
+                      <div class="col-xs-12 col-md-4">
+                          <h3>
+                              Outsourced DPO-GDPR
+                          </h3>
+
+                          <p class="justify">
+                              Data Protectors will act as your outsourced data protection officer to ensure compliance with the EU General Data Protection Regulation. This is an ongoing commitment from both parties.
+                          </p>
+                          <p class="justify">
+                              We will engage with your team to jointly build a data protection strategy, map current processes, assist with vendor risk evaluation, ensure you remain compliant, and assist in the unlikely event of a data breach.
+                          </p>
+                      </div>
+                      <div class="col-xs-12 col-md-4">
+                          <h3>
+                              Outsourced DPO-Singapore
+                          </h3>
+
+                          <p class="justify">
+                              Data Protectors will act as your outsourced data protection officer to ensure compliance with the Singapore Data Protection Act. This is an ongoing commitment from both parties.
+                          </p>
+                          <p class="justify">
+                              We will engage with your team to jointly build a data protection strategy, map current processes, assist with vendor risk evaluation, ensure you remain compliant, and assist in the unlikely event of a data breach.
+                          </p>
+                      </div>
+                      <div class="col-xs-12 col-md-4">
+                          <h3>
+                              Privacy Consulting
+                          </h3>
+
+                          <p class="justify">
+                              Data Protectors staff can be engaged in an ad-hoc manner for privacy consulting. Common engagements include privacy gap analysis, and assistance with obtaining privacy shield certification.
+                          </p>
+                          <p class="justify">
+                              We also help client build strategies and roadmaps to survive intensive vendor audits, including ISO27001 type policies and procedures in addition to data protection.
+                          </p>
+                      </div>
+                  </div>
+
+
+                  <h2>
+                      Due Diligence
+                  </h2>
+
+                  <div class="row">
+                      <div class="col-xs-12 col-md-6">
+                          <h3>
+                              Privacy Audits
+                          </h3>
+
+                          <p class="justify">
+                              Data Protectors has been experience of evaluating existing privacy programs. We bring a unique skill set in that we can evaluate 1) The requirements 2) the current practices 3) the changes that need to be made to practices to ensure compliance.
+                          </p>
+                          <p class="justify">
+                              Additionally Data Protectors can assist with technical tooling and training to implement and track changes, so compliance can be recorded and tracked.
+                          </p>
+                      </div>
+                      <div class="col-xs-12 col-md-6">
+                          <h3>
+                             Privacy Technical Controls Review
+                          </h3>
+
+                          <h4>
+                              Project Description
+                          </h4>
+                          <p class="justify">
+                              With a Privacy Technical Controls Review, we examine the operational effectiveness of existing privacy controls. We both ensure the controls are sufficient and that they are operating as designed.
+                          </p>
+                          <p class="justify">
+                              Data flow, site location and data access permissions and practices are evaluated against likely risks to ensure adequacy.
+                          </p>
+                      </div>
+                  </div>
+                  
+
+
+
+
+
+
+
+
+
+              </div>
+
+              <div id="experience" class="section">
+
+                  <div class='transparent_panel'>
+                      <h1>Experiences</h1>
+                      
+
+                      <div class="row">
+
+                          <div class="col-xs-12 col-md-4">
+                              <h3>
+                                   Ride Share Company
+                              </h3>
+                              <p class="justify">
+                                  Compiled global data compliance requirements and built a legal and engineering strategy for compliance with these standards for the world's largest ride share company.
+                              </p>
+                          </div>
+
+                          <div class="col-xs-12 col-md-4">
+                              <h3>
+                                   Top Security Company
+                              </h3>
+                              <p class="justify">
+                                   Led Information Security and Privacy globally for the world's largest security company. Implemented information security and data protection policies. Interacted regularly with Regulators.
+                              </p>
+                          </div>
+
+                          <div class="col-xs-12 col-md-4">
+                                <h3>
+                                     Top Registrar
+                                </h3>
+                                <p class="justify">
+                                    Led Privacy globally for a top Internet Registrar. Assisted with EU GDPR preparation.
+                                </p>
+                          </div>
+                          
+                      </div>
+
+                      <div class="row">
+
+                          <div class="col-xs-12 col-md-4">
+                                <h3>
+                                     High Tech Company
+                                </h3>
+                                <p class="justify">
+                                    Designed and implemented Information Security and data protection policies for corporate and cloud business units, for a recognized leaded in Agile and DevOps.
+                                </p>
+                          </div>
+
+                          <div class="col-xs-12 col-md-4">
+                                <h3>
+                                     Online Travel Company
+                                </h3>
+                                <p class="justify">
+                                    Assessed risk and implemented appropriate policies for global data protection for a top 3 online travel booking platform.
+                                </p>
+                          </div>
+
+                          <div class="col-xs-12 col-md-4">
+                                <h3>
+                                     Top 5 US Bank
+                                </h3>
+                                <p class="justify">
+                                    Assisted antifraud team to rapidly comply with recent case law and regulations. Designed and implemented third party risk assessment program.
+                                </p>
+                          </div>
+
+                          <h3 class="text-center">
+                              Protecting > 100m records
+                          </h3>
+
+                      </div>
+                  </div>
+
+                  
+
+                  
+
+
+              </div>
+
+              <div id="contact" class="section">
+                  <h1>
+                      Contact Us
+                  </h1>
+                  <h4 class="text-center">
+                      We are dispersed throughout the globe. Each of our partners has requisite expertise to take care of your regulatory, privacy and data security concerns
+                  </h4>
+
+                  <!--<div class="row text-center">
+                      <div class="col-xs-12 col-md-4">
+                          <h3>San Francisco Office</h3>
+                          <a href="#">sanfran@dataprotectors.eu</a>
+                      </div>
+                      <div class="col-xs-12 col-md-4">
+                          <h3>Singapore Office</h3>
+                          <a href="#" >singapore@dataprotectors.eu</a>
+                      </div>
+                      <div class="col-xs-12 col-md-4">
+                          <h3>London Office</h3>
+                          <a href="#" >london@dataprotectors.eu</a>
+                      </div>
+                  </div>
+
+                  <div class="row text-center">
+                      <div class="col-xs-12 col-md-6">
+                          <h3>Krakow, Poland Office</h3>
+                          <a href="#" >poland@dataprotectors.eu</a>
+                      </div>
+                      <div class="col-xs-12 col-md-6">
+                          <h3>Cork, Ireland Office</h3>
+                          <a href="#" > ireland@dataprotectors.eu</a>
+                      </div>
+                  </div>-->
+
+              </div>
+
         </t>
     </template>
 
@@ -101,7 +603,7 @@
             <div class="white_panel" id="contactus">
               <h1 class="title">Contact Us</h1><br/>                              
 
-              <p> <b> This is A Paragraph Contact Us </b> </p>
+              <p class="justify"> <b> This is A Paragraph Contact Us </b> </p>
 
               <hr/>                                    
             </div>

@@ -1,12 +1,12 @@
 
 
-#dpo_main_content{
+#dpo_main_content, #services, #experience{
 	background-image: url('../img/background.jpg');
+	background-attachment: fixed;
 	background-repeat: no-repeat;
-	background-size: 100% 100%;
+	background-size: 100%;
 	min-height: 100vh;
-	height: 100vh;
-	overflow-y: auto;
+	height: auto;
 }
 
 #sssss{
@@ -26,13 +26,27 @@
 	font-weight: 800;
 }
 
-#transparent_panel{
+.bannertext2{
+	font-size: 80px;
+	font-weight: 800;
+}
+
+.transparent_panel{
 	background-color: rgba(255,255,255,.5);
 	padding: 20px;
 	box-shadow: 1px 1px 1px #B1B0B5;
 	border-radius: 5px;
 	margin-top: 30px;
 	margin-bottom: 50px;
+}
+
+.transparent_panel_blue{
+	background-color: rgba(0,166,223,.5);
+	padding: 20px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px 1px #B1B0B5;
+	border-radius: 3px;
 }
 
 #tagline{
@@ -42,12 +56,108 @@
 	margin-bottom: 30px !important;
 }
 
+/* new styles */
+.section{
+	padding: 20px;
+}
+
+#filler{
+	margin-top: 20px;
+	padding: 20px;
+	height: 20px;
+	min-height: 20px;
+}
+
+.subtitle{
+	font-size: 17px;
+	color: white;	
+	font-style: italic;
+}
+
+.subtitle3{
+	font-size: 20px;
+	color: #00A6DF;	
+	font-style: italic;
+}
+
+.section h1{
+	color: #00A6DF;
+	font-weight: 600;
+	text-align: center;
+}
+
+#aboutus ul li{
+	font-weight: bold;
+	color: #00A6DF;
+}
+
+#aboutus ul{
+	padding-left: 15px;
+}
+
+#aboutus h2{
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+	margin:20px;
+	color: #00A6DF;
+}
+
+.justify{
+	text-align: justify !important;
+	text-justify: inter-word;
+}
+
+#services h3{
+	font-size: 20px;
+}
+
+
+#Portfolio{
+	background-color: #00A6DF;
+}
+
+#Portfolio h1, #Portfolio  h2, #Portfolio h3, #Portfolio p, #Portfolio h4{
+	color: white;
+}
+
+#Portfolio h2{
+	font-size: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#Portfolio p{
+	color: #DFE6F0;
+}
+
+#Portfolio h3{
+	font-size: 20px;
+}
+
+#experience h3{
+	font-size: 20px;
+}
+
+#contact h3{
+	font-size: 20px;
+}
+
+
+
+/* new styles */
+
 
 @media only screen and (max-width: 500px) {
     .bannertext{
 		font-size: 50px;
 		font-weight: 800;
 		text-align: center;
+	}
+
+	.bannertext2{
+		font-size: 35px;
+		font-weight: 800;
 	}
 
 	#tagline{
@@ -59,10 +169,15 @@
 		text-align: center;
 	}
 
-	#dpo_main_content{
+	#dpo_main_content, #services, #experience{
 		background-image: url('../img/background.jpg');
 		background-repeat: no-repeat;
+		background-size: 200% 100%;
 		min-height: 100vh;
 		height: auto;
 	}
+
+	/* new styles */
+
+	/* new styles */
 }
