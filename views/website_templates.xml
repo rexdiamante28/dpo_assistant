@@ -9,30 +9,9 @@
             <span class="hidden" id="active_link">0,1</span>
           
               <div  id='dpo_main_content' class="col-xs-12">
-                  <div class="col-sm-6" id='sssss'>
-
-                      <h1 class="lightbluetext bannertext text-center">WE ARE</h1>
-                      <h1 class="bluetext bannertext2 text-center">DATA PROTECTORS</h1>
-                      
-                      <div class='transparent_panel_blue'>
-
-                          <p class="subtitle">
-                              We are the virtual assitants to DPA. We are a leading privacy and data security specialists.
-                          </p>
-
-                          <p class="subtitle">
-                              We have global experience at running privacy at some of the world's largest companies. We perform all the DPO tasks that is expected other than being the organic member of the organizations
-                          </p>
-
-                          <p class="subtitle">
-                              We are global and just an email away.
-                          </p>
-                      </div>
-
-                  </div>
-                  <div class="col-sm-6">
+                  <div class="col-sm-6 col-sm-offset-3">
                       <div class='transparent_panel'>
-                          <h3 class="bluetext text-center">SUBSCRIBE NOW!</h3>
+                          <h3 class="bluetext text-center">Contact Us</h3>
                           <form method="post" action="/page/subscribe">
                               <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
                               <div class="form-group">
@@ -48,10 +27,18 @@
                                   <input type="text" class="form-control" name="contact_number" placeholder="Contact Number:" />
                               </div>
                               <div class="form-group">
+                                  <select type="text" class="form-control" name="type" >
+                                      <option>Request personal information of data subject</option>
+                                      <option>Request to delete information of data subject</option>
+                                      <option>Request to change information</option>
+                                      <option>Complaint</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
                                   <textarea type="text" class="form-control" name="message" placeholder="Message:"></textarea>
                               </div>
                               <div class="form-group">
-                                  <button type="submit" class="btn btn-block btn-primary">SUBSCRIBE</button>
+                                  <button type="submit" class="btn btn-block btn-primary">SEND</button>
                               </div>
                           </form>
                       </div>
@@ -600,13 +587,43 @@
         <t t-call="website.layout">
             <span class="hidden" id="active_link">0,1</span>
           
-            <div class="white_panel" id="contactus">
-              <h1 class="title">Contact Us</h1><br/>                              
-
-              <p class="justify"> <b> This is A Paragraph Contact Us </b> </p>
-
-              <hr/>                                    
-            </div>
+            <div  id='dpo_main_content' class="col-xs-12">
+                  <div class="col-sm-6 col-sm-offset-3">
+                      <div class='transparent_panel'>
+                          <h3 class="bluetext text-center">Contact Us</h3>
+                          <form method="post" action="/page/subscribe">
+                              <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                              <div class="form-group">
+                                  <input type="text" class="form-control" name="name" placeholder="Name:" />
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" class="form-control" name="email" placeholder="Email:" />
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" class="form-control" name="company" placeholder="Company:" />
+                              </div>
+                              <div class="form-group">
+                                  <input type="text" class="form-control" name="contact_number" placeholder="Contact Number:" />
+                              </div>
+                              <div class="form-group">
+                                  <select type="text" class="form-control" name="type" >
+                                      <option>Request personal information of data subject</option>
+                                      <option>Request to delete information of data subject</option>
+                                      <option>Request to change information</option>
+                                      <option>Complaint</option>
+                                  </select>
+                              </div>
+                              <div class="form-group">
+                                  <textarea type="text" class="form-control" name="message" placeholder="Message:"></textarea>
+                              </div>
+                              <div class="form-group">
+                                  <button type="submit" class="btn btn-block btn-primary">SEND</button>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+              
         </t>
     </template>
 
