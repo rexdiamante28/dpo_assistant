@@ -20,6 +20,14 @@
                                   sequence="2"
                                   action="subscribers_action" />
 
+
+                  <!--Measurement Requests-->
+                        <menuitem id="inquiries"
+                                  name="Inquiries"
+                                  parent="general"
+                                  sequence="3"
+                                  action="inquiries_action" />
+
                         
 
 

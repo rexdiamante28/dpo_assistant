@@ -43,6 +43,41 @@ class dpo_assistant(http.Controller):
 
 
 
+    @http.route('/page/inquire', type='http', auth="public", website=True)
+    def submitdata(self, **kw):
+        #Super ID which is ADMIN 1
+        if not request.uid:
+            request.uid = 1        
+
+        #How to Call a Model in a Controller
+        model_inquiries = http.request.env['dpo_assistant.inquiries'].sudo()
+
+
+        result = model_inquiries.create({
+            'name' : request.params['name'],
+            'email': request.params['email'],
+            'company': request.params['company'],
+            'contact_number': request.params['contact_number'],
+            'inq_type': request.params['type'],
+            'message': request.params['message']
+        })
+
+
+
+
+        return request.render("dpo_assistant.thankyou", {})        
+
+
+    #Ignore Mo Muna sir Unless I override mo yung Homepage
+    #Overriding Homepage
+    #@http.route('/page/homepage', type='http', auth="public", website=True)
+    #def homepage(self):
+        #env = request.env(context=dict(request.env.context, show_address=True, no_tag_br=True))
+        # Render page
+    #    return request.render("psvalliance.homepage", {})
+
+
+
     #@http.route('/page/subscribe', type='http', auth="public", website=True)
     #def submitdata(self, **kw):
         #Super ID which is ADMIN 1

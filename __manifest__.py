@@ -18,7 +18,8 @@ For Clinic Information Maintenance
     ],
     'data': [
         'static/add_css.xml',       
-        'data/website_menu.xml', 
+        'data/website_menu.xml',
+        'views/inquiries.xml',
         'views/website_templates.xml',
         'views/subscribers.xml',
         'views/menu.xml',
